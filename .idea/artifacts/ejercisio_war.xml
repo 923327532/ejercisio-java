@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ejercisio:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ejercisio</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ejercisio-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ejercisio:war exploded" />
+    </root>
+  </artifact>
+</component>
